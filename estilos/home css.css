@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'TAN-MONCHERI';
+    src: url('../fuentes/TAN-MONCHERI.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fuentes/Montserrat-SemiBold.ttf');
+    font-weight: normal;
+}
+
+body {
+    font-family: 'TAN-MONCHERI';
+    margin: 0;
+    padding: 0;
+    background-color: #000!important;
+}
+
+header {
+    background-color: #000!important; 
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'TAN-MONCHERI'!important;
+    margin-left: 25px;
+    margin-right: 29px;
+    font-size: 15px;
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 15px;
+}
+
+.logo-title {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.title {
+    margin: 0; 
+}
+
+.title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: #333; 
+    transition: background-color 0.3s;
+}
+
+nav ul li:nth-child(1) a:hover {
+    color: #E7007A; 
+    background-color: #000;
+}
+
+nav ul li:nth-child(2) a:hover {
+    color:  #009318;
+    background-color: #000;
+}
+
+nav ul li:nth-child(3) a:hover {
+   color: #3171F8; 
+   background-color: #000;
+}
+
+nav ul li:nth-child(4) a:hover {
+    color:  #F2672C;
+    background-color: #000;
+}
+
+nav ul li:nth-child(5) a:hover {
+    color: #fff317;
+    background-color: #000;
+}
+
+.carousel-item img {
+    max-width:calc(100% - 2cm); 
+    height: 300px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+#carouselExampleFade {
+    margin-top: -20px; 
+    background-color: #000;
+}
+
+.card {
+    margin-top: 20px; 
+    margin-left: 1cm; 
+    margin-right: 1cm;
+    background-color: #000 !important;
+    color: #fff !important;
+    position: relative;
+}
+
+.card-group {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.card-title {
+    color: #fff!important;
+    background-color: #000;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    position: absolute; 
+    bottom: 50px!important;
+    left: 50%; 
+    transform: translateX(-50%);
+    transition: background-color 0.3s, color 0.3s; 
+    border: none;
+    outline: none;
+}
+
+.card-title:hover {
+    background-color: #fff;
+    color: #000!important;
+}
+
+.card .card-title {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer {
+    background-color: #F2672C;
+    color: #fff;
+    padding: 20px 0;
+    font-family: 'Montserrat';
+    text-align: center;
+    width: 100%;
+  }
+  .footer p {
+    margin: 0;
+  }
+  
+  .copyright-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+
+
+
+
